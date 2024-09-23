@@ -1,0 +1,388 @@
+/* code your own style here: */
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat',sans-serif;
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+/* Nav-BAr */
+.nav-container{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+}
+.nav-container ul{
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav-container ul li{
+    list-style: none;
+}
+.nav-container ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.nav-container ul li a:hover{
+    color: blueviolet;
+}
+.nav-container ul button{
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    background: black;
+    color: white;
+}
+/* Main Bar */
+/* Form */
+.main-container .company-registration-section{
+    height: 90vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.main-container .company-registration-section img{
+    width: 30px;
+}
+.main-container .company-registration-section .main-registration-content{
+    flex: 1;
+    padding: 0 100px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-container .company-registration-section .main-registration-content h1{
+    font-size: 64px;
+}
+.main-container .company-registration-section .main-registration-content ul li{
+    margin: 20px 0;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.main-container .company-registration-section .main-registration-form{
+    flex: 1;
+}
+.main-container .company-registration-section .main-registration-form form{
+    background: white;
+    color: black;
+    height: 70%;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    padding: 0 10px;
+}
+.main-container .company-registration-section .main-registration-form form .form-info{
+    height: 20%;
+    display: flex;
+    gap: 10px;
+}
+.main-container .company-registration-section .main-registration-form form .form-info div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.main-container .company-registration-section .main-registration-form form .form-info div input{
+    height: 60%;
+    font-size: 18px;
+    border-radius: 45px;
+    padding: 0 15px;
+    outline: none;
+    border: 2px solid black;
+}
+.main-container .company-registration-section .main-registration-form form .form-info div label{
+    padding: 0 25px;
+    font-size: 18px;
+}
+.main-container .company-registration-section .main-registration-form form .btn{
+    height: 10%;
+    background: red;
+    color: white;
+    border: red solid 3px;
+    border-radius: 45px;
+    font-size: 24px;
+}
+.main-container .company-registration-section .main-registration-form form .btn:hover{
+    background: white;
+    color: red;
+}
+/* section company partner */
+.company-partner-section{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.company-partner-section h2{
+    height: 10px;
+    width: 100%;
+    font-size: 46px;
+    text-align: center;
+    margin: 30px 0;
+}
+.company-partner-section img{
+    width: 200px;
+}
+.company-partner-section .partners{
+    display: flex;
+}
+.company-partner-section .partners .partner{
+    flex: 1;
+    height: 75vh;
+    padding: 25px 100px;
+    font-size: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.company-partner-section .partners .partner:nth-child(2){
+    border-left: rgb(134, 128, 128) 3px solid;
+    border-right: rgb(134, 128, 128) 3px solid;
+}
+.company-partner-section .partners .partner:nth-child(2) img{
+    height: 50px;
+    width: 270px;
+}
+.company-partner-section .partners .partner p{
+    flex: 1;
+    color: rgb(134, 128, 128);
+}
+.company-partner-section .partners .partner .company{
+    flex: 0.5;
+}
+/*Company Service */
+.company-services-section{
+    margin: 10% 0;
+    display: flex;
+    gap: 25px;
+}
+.company-services-section .service img{
+    height: 100px;
+    border-radius: 25%;
+}
+.company-services-section .service{
+    margin: 0 50px;
+    padding: 25px 50px;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.company-services-section .service h3{
+    font-size: 24px;
+}
+/* Call to Call Section */
+.company-call-to-call-service-section{
+    /* height: 50vh; */
+    display: flex;
+    padding: 0 100px;
+}
+.company-call-to-call-service-section .call-to-call-content{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    font-size: 24px;
+}
+.company-call-to-call-service-section .call-to-call-content h1{
+    font-size: 62px;
+}
+.company-call-to-call-service-section .call-to-call-content .group-btn button{
+    height: 75px;
+    width: 175px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 18px 0;
+    background: black;
+    color: white;
+    border: none;
+}
+.company-call-to-call-service-section .call-to-call-content .group-btn #talk-to-sale{
+    background: red;
+    border: 5px solid red;
+}
+.company-call-to-call-service-section .call-to-call-content .group-btn #talk-to-sale:hover{
+    background: white;
+    color: red;
+}
+.company-call-to-call-service-section .call-to-call-img{
+    flex: 1;
+}
+.company-call-to-call-service-section .call-to-call-img img{
+    width: 100%;
+}
+/* Company Process Section */
+.company-process-section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.company-process-section .red{
+    font-size: 24px;
+    color: red;
+}
+.company-process-section h2{
+    font-size: 42px;
+}
+.company-process-section .our-processes{
+    display: flex;
+    gap: 100px;
+}
+.company-process-section .our-processes .process{
+    margin: 200px 50px 0;
+}
+.company-process-section .our-processes span{
+    background: rgba(240, 128, 128, 0.504);
+    color: red;
+    padding: 55px 75px;
+    border-radius: 50%;
+    font-size: 62px;
+}
+.company-process-section .our-processes span:nth-child(1){
+    padding: 55px 80px;
+}
+.company-process-section .our-processes h3{
+    font-size: 32px;
+    margin: 75px 0 25px;
+}
+.company-process-section .our-processes p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+/* Company Feature */
+.company-features-section{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.company-features-section p{
+    font-size: 18px;
+}
+.company-features-section .features{
+    display: flex;
+    flex-wrap: wrap;
+}
+.company-features-section .features .feature{
+    flex: 1;
+    display: flex;
+    text-align: left;
+    margin: 20px 50px;
+    padding: 50px 50px;
+    font-size: 22px;
+    border-radius: 45px;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.company-features-section .features img{
+    width: 125px;
+    border-radius: 25%;
+}
+/* Company FQA */
+.company-fqa-section{
+    padding: 50px 50px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+.company-fqa-section .fqa-cards{
+    display: flex;
+}
+.company-fqa-section .fqa-cards .fqa-card{
+    flex: 1;
+    margin: 0 100px;
+    padding: 25px 25px;
+    background: white;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.company-fqa-section .fqa-cards .fqa-card .fqa-card-question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 24px;
+}
+.company-fqa-section .fqa-cards .fqa-card .fqa-card-question span{
+    background: black;
+    color: white;
+    font-size: 46px;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+/* Footer */
+.footer-container{
+    padding: 10px 50px;
+}
+/* Footer Menu Section */
+.footer-container .footer-menu-section{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-container .footer-menu-section .menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+}
+.footer-container .footer-menu-section .menu h3{
+    font-size: 24px;
+}
+.footer-container ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-container a{
+    text-decoration: none;
+    color: black;
+    
+}
+/* Footer Laguages section */
+.languages-section{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-top: 1px solid rgb(134, 128, 128);
+    border-bottom: 1px solid rgb(134, 128, 128);
+}
+.footer-container .languages-active{
+    color: blueviolet;
+}
+/* Footer Section */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.footer-container .footer-section ul{
+    display: flex;
+    gap: 20px;
+}
